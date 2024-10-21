@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* Box 1*/
+.nav_logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height:50px;
+    width:100%;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* Box 2*/
+.add_first{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add_second{
+    color:white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+/* box 3*/
+.nav_search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: chocolate;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav_search:hover{ /*When we click on search box to get a orang border*/
+    border:2px solid orange;
+
+}
+.search_input{
+    width:100%;
+    border: none;
+    font-size: 1rem; 
+}
+.search_select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+}
+.search_icon{
+    width:45px;
+    display: flex;
+    justify-content: center; /*Horizontally center*/
+    align-items: center; /*Vertically center*/
+    font-size: 1.2rem;
+    color:#0F1111;
+}
+/* Box 4*/
+span{
+    font-size: 12px;
+}
+.nav_second{
+    font-size: 14px;
+    font-weight: 700; /*For showing darker text*/
+}
+/* Box 5*/
+.nav_cart i{ /*i is written so that this apply only on the icon in div nav_cart*/
+    font-size:30px ;
+}
+.nav_cart{
+    font-size: 12px;
+    font-weight: 700;
+}
+/* Panel */
+.panel{
+    background-color: #222f3d;
+    color:white;
+    height:40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.panel_options p{
+    display: inline;
+    margin-right: 15px;
+}
+.panel_options{
+    width:70%;
+    font-size: 14px;  
+}
+.panel_deals{
+    font-size: 15px;
+    font-weight: 700;
+}
+/* Hero section */
+.hero_section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero_msg{
+    background-color: white;
+    height: 40px;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+    width:80%;
+    margin-bottom: 25px;
+}
+.hero_msg a{
+    color:#007185;
+}
+/* Shop Section */
+.shop_section{
+    display: flex; /* To show 4 boxes in one line*/
+    flex-wrap: wrap;/*So that maximum will come in first line and next will come in second line */
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height:400px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+}
+.box_img{
+    background-size: cover;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box_content{
+    margin-left:10px;
+    margin-right: 10px; 
+}
+.box_content p{
+    color:#007185;
+    font-size: 14px;
+}
+/* Footer  Panel 1*/
+footer{
+    margin-top: 15px;
+}
+.foot_panel1{
+    background-color: #0F1111;
+    color: white;
+    height: 30px;
+    display: flex;   /* To mke content on center*/
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+}
+/* Footer panel 2*/
+.foot_panel2{
+    background-color: #222f3d;
+    color:white;
+    height:300px;
+    display: flex; /*So that all ul comes in single row*/
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 40px;
+}
+ul a{
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    color:#dddddd;
+}
+/* Footer Panel 3*/
+.foot_panel3{
+    background-color: #222f3d;
+    color:white;
+    height:70px;
+    border-top: 0.1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+/* Footer Panel 4*/
+.foot_panel4{
+    background-color: #0f1111;
+    height:75px;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+}
+.pages{
+    padding: 10px;
+}
